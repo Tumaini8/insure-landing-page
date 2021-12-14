@@ -1,0 +1,68 @@
+.container-fluid ul {
+  font-size: 14px;
+  margin-right: 20px;
+  color: hsl(0, 0%, 98%);
+  font-weight: 400px;
+}
+.container-fluid ul:hover {
+  color: hsl(256, 26%, 20%);
+}
+.container-fluid .navbar-brand {
+  text-transform: uppercase;
+  padding: 15px;
+  margin-left: 90px;
+}
+.navbar-brand {
+  color: hsl(255, 44%, 13%);
+}
+.nav-link:hover {
+  color: hsl(255, 44%, 13%);
+}
+.container-fluid .active {
+  background: hsl(256, 26%, 20%);
+}
+
+.container img {
+  width: 300px;
+}
+.container p {
+  font-size: 15px;
+}
+
+.container .part1 {
+  padding: 100px;
+  height: 385px;
+  background: hsl(256, 26%, 20%);
+  color: white;
+}
+.container .btn {
+  background: hsl(255, 44%, 13%);
+  border-color: white;
+  padding: 10px 30px 10px 30px;
+}
+.container button:hover {
+  background: white;
+  color: hsl(255, 44%, 13%);
+}
+section {
+  margin: 194px;
+}
+.container .part2 h1 {
+  font-size: 50px;
+}
+.container .part2 img {
+  width: 50px;
+}
+.container .part2 p {
+  font-size: 13px;
+  color: hsl(216, 30%, 68%);
+}
+.container .part3 h1 {
+  font-size: 30px;
+}
+.container .part3 {
+  padding: 70px;
+  height: 200px;
+  background: hsl(256, 26%, 20%);
+  color: white;
+}
