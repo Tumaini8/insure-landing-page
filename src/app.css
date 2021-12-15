@@ -110,3 +110,20 @@ section {
 .container .part4 .linking {
   margin-left: 29px;
 }
+.container .social-links a {
+  padding-inline: 40px;
+  background: hsl(253, 13%, 78%);
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  margin-left: 25px;
+}
+.social-links {
+  text-align: center;
+}
+
+.container .aboutShawn {
+  text-align: center;
+  padding: 80px;
+}
