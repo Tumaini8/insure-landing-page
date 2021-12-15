@@ -23,7 +23,7 @@
 }
 
 .container img {
-  width: 300px;
+  width: 350px;
 }
 .container p {
   font-size: 15px;
@@ -32,8 +32,12 @@
 .container .part1 {
   padding: 100px;
   height: 385px;
-  background: hsl(256, 26%, 20%);
-  color: white;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(137, 210, 253) 0%,
+    rgb(255, 241, 188) 90%
+  );
+  color: black;
 }
 .container .btn {
   background: hsl(255, 44%, 13%);
@@ -45,7 +49,7 @@
   color: hsl(255, 44%, 13%);
 }
 section {
-  margin: 194px;
+  margin: 190px;
 }
 .container .part2 h1 {
   font-size: 50px;
@@ -63,6 +67,46 @@ section {
 .container .part3 {
   padding: 70px;
   height: 200px;
-  background: hsl(256, 26%, 20%);
+  background: radial-gradient(
+    circle at 50.3% 44.5%,
+    rgb(116, 147, 179) 0%,
+    rgb(62, 83, 104) 100.2%
+  );
   color: white;
+}
+.container .part4 {
+  background: hsl(0, 0%, 98%);
+  padding: 70px;
+  height: 300px;
+}
+.container .part4 ul {
+  list-style: none;
+}
+.container .part4 img {
+  width: 15px;
+}
+.container .part4 .company {
+  display: inline-block;
+  padding-inline: 2px;
+}
+.container .part4 .company:hover {
+  background: hsl(256, 26%, 20%);
+  cursor: pointer;
+  border-radius: 100%;
+}
+.container .part4 p {
+  font-size: 13px;
+  color: hsl(218, 25%, 44%);
+}
+.container .part4 a {
+  color: hsl(217, 30%, 19%);
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 2.3;
+}
+.container .part4 a:hover {
+  text-decoration: underline;
+}
+.container .part4 .linking {
+  margin-left: 29px;
 }
