@@ -110,6 +110,10 @@ section {
 .container .part4 .linking {
   margin-left: 29px;
 }
+.container .aboutPage {
+  background: hsl(0, 0%, 98%);
+  padding: 23px;
+}
 .container .social-links a {
   padding-inline: 40px;
   background: hsl(253, 13%, 78%);
@@ -122,8 +126,27 @@ section {
 .social-links {
   text-align: center;
 }
-
 .container .aboutShawn {
+  font-size: 55px;
   text-align: center;
-  padding: 80px;
+  padding: 50px;
+}
+.container .aboutShawn2 {
+  text-align: center;
+  padding: 50px;
+}
+
+.container .shawnPhoto img {
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  padding-bottom: 40px;
+}
+.container .shawn-paragraph p {
+  font-size: 19px;
+}
+.container .link a:hover {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: blueviolet;
 }
