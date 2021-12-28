@@ -150,7 +150,90 @@ section {
   text-decoration: none;
   color: blueviolet;
 }
-footer p{
+footer p {
   font-size: 12px;
+}
+.contact-section h2 {
+  font-size: 97px;
+  padding-top: 80px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.contact-section p {
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+.contact-section {
+  background: linear-gradient(
+    to right,
+    #e4afcb 0%,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #e2c58b 30%,
+    #c2ce9c 64%,
+    #7edbdc 100%
+  );
+  padding: 150px;
+}
+.contact-section2 {
+  background: black;
+  padding: 120px;
+  color: white;
+}
+.contact-section2 h6 {
+  font-size: 35px;
+  font-family: "Cormorant Garamond", serif;
+}
+.contact-section2 p {
+  font-size: 25px;
+  font-family: "Cormorant Garamond", serif;
+}
+.contact-section2 i {
+  background-color: rgb(0, 195, 255);
+  padding: 5%;
+  border-radius: 50%;
+}
+
+.contact-section3 {
+  padding: 100px;
+}
+.contact-section3 h3 {
+  font-size: 35px;
+}
+.contact-section3 input {
+  border-color: black;
+}
+.contact-section3 textarea {
+  border-color: black;
+}
+@media (max-width: 767px) {
+  .contact-section h2 {
+    font-size: 50px;
+  }
+
+  .contact-section p {
+    font-size: 20px;
+    text-transform: lowercase;
+  }
+  .contact-section2 h6 {
+    font-size: 27px;
+  }
+  .contact-section2 p {
+    font-size: 20px;
+  }
+  .contact-section3 h3 {
+    font-size: 20px;
+  }
+  .container .aboutShawn {
+    font-size: 30px;
+  }
+  .container .shawnPhoto img {
+    width: 400px;
+  }
+  .container p {
+    font-size: 14px;
+}
   
 }
