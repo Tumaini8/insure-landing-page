@@ -234,6 +234,15 @@ footer p {
   }
   .container p {
     font-size: 14px;
-}
-  
+  }
+  .container h1 {
+    font-size: 25px;
+  }
+  .container .part3 {
+    padding: 200px;
+  }
+  .container .part3 h1 {
+    font-size: 20px;
+    text-align: start;
+  }
 }
