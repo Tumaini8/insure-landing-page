@@ -22,14 +22,14 @@
   background: hsl(256, 26%, 20%);
 }
 
-.container img {
+.part1 img {
   width: 350px;
 }
-.container p {
+.part1 p {
   font-size: 15px;
 }
 
-.container .part1 {
+.part1 {
   padding: 100px;
   height: 385px;
   background: radial-gradient(
@@ -39,12 +39,12 @@
   );
   color: black;
 }
-.container .btn {
+.part1 .btn {
   background: hsl(255, 44%, 13%);
   border-color: white;
   padding: 10px 30px 10px 30px;
 }
-.container button:hover {
+.part1 button:hover {
   background: white;
   color: hsl(255, 44%, 13%);
 }
@@ -61,10 +61,10 @@ section {
   font-size: 13px;
   color: hsl(216, 30%, 68%);
 }
-.container .part3 h1 {
+.silver .part3 h1 {
   font-size: 30px;
 }
-.container .part3 {
+.silver .part3 {
   padding: 70px;
   height: 200px;
   background: radial-gradient(
@@ -74,40 +74,40 @@ section {
   );
   color: white;
 }
-.container .part4 {
+.part4 {
   background: hsl(0, 0%, 98%);
   padding: 70px;
   height: 300px;
 }
-.container .part4 ul {
+.part4 ul {
   list-style: none;
 }
-.container .part4 img {
+.part4 img {
   width: 15px;
 }
-.container .part4 .company {
+.part4 .company {
   display: inline-block;
   padding-inline: 2px;
 }
-.container .part4 .company:hover {
+.part4 .company:hover {
   background: hsl(256, 26%, 20%);
   cursor: pointer;
   border-radius: 100%;
 }
-.container .part4 p {
+.part4 p {
   font-size: 13px;
   color: hsl(218, 25%, 44%);
 }
-.container .part4 a {
+.part4 a {
   color: hsl(217, 30%, 19%);
   font-size: 12px;
   text-decoration: none;
   line-height: 2.3;
 }
-.container .part4 a:hover {
+.part4 a:hover {
   text-decoration: underline;
 }
-.container .part4 .linking {
+.part4 .linking {
   margin-left: 29px;
 }
 .container .aboutPage {
@@ -238,11 +238,21 @@ footer p {
   .container h1 {
     font-size: 25px;
   }
-  .container .part3 {
-    padding: 200px;
+  .silver .part3 {
+    height: 300px;
   }
-  .container .part3 h1 {
-    font-size: 20px;
-    text-align: start;
+  .silver .part3 .portfolio {
+    background-color: #7aa7eb;
+    border-color: #7aa7eb;
+    padding: 15px;
   }
+  .silver .part3 .portfolio:hover {
+    background: white;
+    color: black;
+  }
+  .bronze .part4 {
+ 
+  margin-top: 60px;
+  height: 370px;
+}
 }
