@@ -10,7 +10,6 @@
 .container-fluid .navbar-brand {
   text-transform: uppercase;
   padding: 15px;
-  margin-left: 90px;
 }
 .navbar-brand {
   color: hsl(255, 44%, 13%);
@@ -113,6 +112,7 @@ section {
 .container .aboutPage {
   background: hsl(0, 0%, 98%);
   padding: 23px;
+  margin: 35px;
 }
 .container .social-links a {
   padding-inline: 40px;
@@ -209,16 +209,23 @@ footer p {
   border-color: black;
 }
 @media (max-width: 767px) {
+  .contact-section {
+  
+  padding: 55px;
+
+}
   .contact-section h2 {
-    font-size: 50px;
+    font-size: 20px;
   }
+ 
+
 
   .contact-section p {
     font-size: 20px;
     text-transform: lowercase;
   }
   .contact-section2 h6 {
-    font-size: 27px;
+    font-size: 20px;
   }
   .contact-section2 p {
     font-size: 20px;
@@ -226,11 +233,14 @@ footer p {
   .contact-section3 h3 {
     font-size: 20px;
   }
+  .contact-section3 {
+    padding: 40px;
+}
   .container .aboutShawn {
-    font-size: 30px;
+    font-size: 20px;
   }
   .container .shawnPhoto img {
-    width: 400px;
+    width: 220px;
   }
   .container p {
     font-size: 14px;
@@ -251,8 +261,56 @@ footer p {
     color: black;
   }
   .bronze .part4 {
- 
-  margin-top: 60px;
-  height: 370px;
-}
+    margin-top: 60px;
+    height: 370px;
+  }
+  footer p {
+    font-size: 11px;
+  }
+  .part1 p {
+    font-size: 12px;
+  }
+  .part1 .btn {
+    width: 100%;
+  }
+  .part1 button:hover {
+    background: white;
+    color: hsl(255, 44%, 13%);
+  }
+  .part1 {
+    padding: 60px;
+  }
+  .part1 h1 {
+    font-size: 25px;
+  }
+  section {
+    margin: 50px;
+  }
+  .container .part2 h1 {
+    font-size: 50px;
+  }
+  .silver .part3 h1 {
+    font-size: 20px;
+    text-align: start;
+  }
+  .silver .part3 {
+    padding: 70px;
+    height: 230px;
+  }
+  .silver .part3 .portfolio {
+    background-color: #132f5a;
+    border-color: #132f5a;
+    margin: 10px;
+    width: 100%;
+  }
+  .silver .part3 .portfolio :hover {
+    background-color: #5a5313;
+  }
+  .bronze .part4 {
+    height: 590px;
+  }
+  footer p {
+    margin: 35px;
+    font-size: 15px;
+  }
 }
