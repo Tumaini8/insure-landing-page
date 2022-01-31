@@ -210,16 +210,11 @@ footer p {
 }
 @media (max-width: 767px) {
   .contact-section {
-  
-  padding: 55px;
-
-}
+    padding: 55px;
+  }
   .contact-section h2 {
     font-size: 20px;
   }
- 
-
-
   .contact-section p {
     font-size: 20px;
     text-transform: lowercase;
@@ -235,7 +230,7 @@ footer p {
   }
   .contact-section3 {
     padding: 40px;
-}
+  }
   .container .aboutShawn {
     font-size: 20px;
   }
