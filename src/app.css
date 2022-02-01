@@ -1,13 +1,13 @@
-.container-fluid ul {
+.container ul {
   font-size: 14px;
   margin-right: 20px;
   color: hsl(0, 0%, 98%);
   font-weight: 400px;
 }
-.container-fluid ul:hover {
+.container ul:hover {
   color: hsl(256, 26%, 20%);
 }
-.container-fluid .navbar-brand {
+.container .navbar-brand {
   text-transform: uppercase;
   padding: 15px;
 }
@@ -17,7 +17,7 @@
 .nav-link:hover {
   color: hsl(255, 44%, 13%);
 }
-.container-fluid .active {
+.container .active {
   background: hsl(256, 26%, 20%);
 }
 
@@ -307,5 +307,11 @@ footer p {
   footer p {
     margin: 35px;
     font-size: 15px;
+  }
+  .container .active {
+    background: hsl(256, 25%, 45%);
+    width: 25%;
+    text-align: center;
+    border-radius: 10px;
   }
 }
