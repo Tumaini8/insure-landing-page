@@ -231,11 +231,21 @@ footer p {
   .contact-section3 {
     padding: 40px;
   }
+  .contact-section2 .contactShawn {
+    position: relative;
+    right: 27px;
+  }
+  .container .aboutPage {
+    margin: 6px;
+  }
   .container .aboutShawn {
-    font-size: 20px;
+    font-size: 24px;
+  }
+  .container .aboutShawn2 {
+    padding: 45px;
   }
   .container .shawnPhoto img {
-    width: 220px;
+    width: 300px;
   }
   .container p {
     font-size: 14px;
